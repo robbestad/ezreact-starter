@@ -1,0 +1,16 @@
+{
+  "name": "eztest",
+  "version": "1.0.0",
+  "description": "Demo app for ezreact",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev": "node servers/dev.js",
+    "lint": "eslint src"
+  },
+  "author": "Sven Anders Robbestad <robbestad@gmail.com> (http://www.robbestad.com)",
+  "license": "ISC",
+  "dependencies": {
+    "ezreact": "^1.0.2"
+  }
+}
