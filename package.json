@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Demo app for ezreact",
   "main": "src/index.js",
+  "reveal": "true",
+  "keywords": [
+    "react",
+    "boilerplate",
+    "react-component"
+    ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "node servers/dev.js",
