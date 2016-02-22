@@ -17,6 +17,6 @@
   "author": "Sven Anders Robbestad <robbestad@gmail.com> (http://www.robbestad.com)",
   "license": "ISC",
   "dependencies": {
-    "ezreact": "^1.0.2"
+    "ezreact": "^1.0.3"
   }
 }
