@@ -9,22 +9,9 @@ class App extends Component {
 
   render(){
     return <div>
-      <h1>EZ React</h1>
-      <div>Developing with React has never been this easy. Just add this package as a dependency and you're good to go. It contains React, Webpack and is fully ES2015 compatible.</div>
+      <h1>EZ React is up and running</h1>
       <div>
-        <h4>Instructions</h4>
-        <p>
-          1. Create a new folder
-        </p><p>
-          2. Type <strong>npm init</strong>
-       </p><p>
-          3. Type <strong>npm i --save ezreact</strong>
-       </p><p>
-          4. Success
-        </p>
-      </div>
-      <div>
-        Source: <a href="https://github.com/svenanders/ezreact">github.com/svenanders/ezreact</a>
+        Now go edit src/index.js and write some code! :)
       </div>
     </div>
   }
