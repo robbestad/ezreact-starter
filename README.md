@@ -1,10 +1,16 @@
-# EZ React demo
+# EZ React starter
 
-Demo app for EZReact
+Starter app for EZReact
 
 This repo is made to show how you can use EZ React in your own projects. 
 All you need to do is add ezreact as a dependency and you'll have a setup
 with hot reload that's fully ES 2015 ready.
+
+The upside to using this repo is that you don't have to worry about
+setting up your environment. It's all set up for you. All you
+have to do is code your app.
+
+It uses only one dependency - `ezreact`.
 
 # Instructions
 
