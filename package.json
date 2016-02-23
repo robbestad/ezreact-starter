@@ -1,7 +1,7 @@
 {
   "name": "eztest",
-  "version": "1.0.0",
-  "description": "Demo app for ezreact",
+  "version": "13.3.7",
+  "description": "Starter app for ezreact",
   "main": "src/index.js",
   "reveal": "true",
   "keywords": [
