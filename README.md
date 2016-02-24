@@ -23,7 +23,7 @@ with `http://localhost:3000`
 
 This is the basic webpack config for the starter:
 
-```json
+```javascript
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
