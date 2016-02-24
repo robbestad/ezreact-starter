@@ -1,6 +1,7 @@
 //@flow
 import React, { Component, PropTypes } from 'react';
 import {render} from 'react-dom';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 class App extends Component {
   constructor() {
@@ -8,9 +9,15 @@ class App extends Component {
     }
 
   render(){
-    return <div>
+    return <Grid fluid>
+      <Row>
+        <Col md={12}>
       <h1>EZ React</h1>
       <div>Developing with React has never been this easy. Just add this package as a dependency and you're good to go. It contains React, Webpack and is fully ES2015 compatible.</div>
+    </Col>
+    </Row>
+    <Row>
+      <Col md={6}>
       <div>
         <h4>Instructions</h4>
         <p>
@@ -26,7 +33,9 @@ class App extends Component {
       <div>
         Source: <a href="https://github.com/svenanders/ezreact">github.com/svenanders/ezreact</a>
       </div>
-    </div>
+    </Col>
+    </Row>
+    </Grid>
   }
 }
 

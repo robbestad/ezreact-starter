@@ -8,7 +8,7 @@
     "react",
     "boilerplate",
     "react-component"
-    ],
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "node servers/dev.js",
@@ -17,6 +17,7 @@
   "author": "Sven Anders Robbestad <robbestad@gmail.com> (http://www.robbestad.com)",
   "license": "ISC",
   "dependencies": {
-    "ezreact": "^1.0.3"
+    "ezreact": "^1.0.3",
+    "react-bootstrap": "^0.28.3"
   }
 }
