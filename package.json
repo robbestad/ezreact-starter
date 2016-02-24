@@ -12,12 +12,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "node servers/dev.js",
+    "prestart": "shjs scripts/copy.js",
+    "start": "cross-env NODE_ENV=production webpack -p --config webpack.config.prod.js",
+    "poststart": "node servers/dist.js",
+    "postbuild": "rimraf public",
+    "build": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "lint": "eslint src"
   },
   "author": "Sven Anders Robbestad <robbestad@gmail.com> (http://www.robbestad.com)",
   "license": "ISC",
   "dependencies": {
-    "ezreact": "^1.0.3",
+    "ezreact": "^1.0.4",
     "react-bootstrap": "^0.28.3"
   }
 }
